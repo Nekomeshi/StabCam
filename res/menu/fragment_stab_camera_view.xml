@@ -1,0 +1,16 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stabcamapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_switch_vr"
+        android:title="@string/menu_switch_vr"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="10"
+        stabcamapp:showAsAction="always" 
+		stabcamapp:actionLayout="@layout/vr_switch_view"/>
+    
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_setup"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="20"
+        android:showAsAction="ifRoom|withText" />
+</menu>

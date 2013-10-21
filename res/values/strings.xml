@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"No blur magnifier"</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="starting_camera">"Now camera starting..."</string>
+	<string name="error_start_camera">"Can't start camera."</string>    
+    
+    
+	<string name="preview_size_fit_to_screen_key">"preview_size_fit_to_screen_key"</string>	
+    <string name="preview_size_fit_to_screen">"Fit preview size to screen"</string>
+	<string name="preview_size_fit_to_screen_summary">"Uncheck &amp; choose smaller size if slow."</string>
+    
+	<string name="menu_setup">"Set up"</string>
+	<string name="menu_switch_vr">"VR"</string>
+</resources>

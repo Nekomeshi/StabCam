@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ThemeSwitch" parent="@style/Theme.AppCompat">
+        <item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item>
+    </style>
+</resources>

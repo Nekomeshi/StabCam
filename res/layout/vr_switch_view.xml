@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"    
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:text="@string/menu_switch_vr" />
+        
+	<org.jraf.android.backport.switchwidget.Switch
+	    android:id="@+id/switch_vr"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    
+</LinearLayout>

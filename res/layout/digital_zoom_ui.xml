@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+ 	android:background="#00000000">
+
+    <LinearLayout
+		android:id="@+id/zoom_base_layout"
+	 	android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+		<ZoomButton
+    		android:id="@+id/zoom_button_minus"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@android:drawable/btn_minus" />
+		<SeekBar
+    		android:id="@+id/zoom_seek"
+        	android:layout_width="144dp"
+        	android:layout_height="wrap_content" />
+		<ZoomButton
+    		android:id="@+id/zoom_button_plus"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@android:drawable/btn_plus" />
+	</LinearLayout>
+</FrameLayout>

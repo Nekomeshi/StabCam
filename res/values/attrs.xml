@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="StabCameraView">
+    	<attr name="aspect_fit_to_screen" format="boolean" />
+    	<attr name="size_fit_to_screen" format="boolean" />
+	</declare-styleable>
+</resources>

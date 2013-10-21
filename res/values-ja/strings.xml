@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"ブレずに拡大"</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="starting_camera">"カメラ起動中"</string>
+	<string name="error_start_camera">"カメラを起動出来ませんでした"</string>    
+    
+	<string name="preview_size_fit_to_screen_key">"preview_size_fit_to_screen_key"</string>	
+    <string name="preview_size_fit_to_screen">"プレビューサイズを画面に合わせる"</string>
+	<string name="preview_size_fit_to_screen_summary">"表示が遅い場合はチェックを外してより小さなサイズを選択してください。"</string>
+    
+	<string name="menu_setup">"セットアップ"</string>
+	<string name="menu_switch_vr">"VR"</string>
+</resources>
